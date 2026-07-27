@@ -1,0 +1,21 @@
+{
+    "products": {
+        "site1": {
+            "name": "Одностраничный сайт",
+            "description": "Красивый лендинг под бизнес",
+            "price": 500
+        },
+
+        "bot1": {
+            "name": "Telegram бот",
+            "description": "Бот на Aiogram с базой данных",
+            "price": 700
+        },
+
+        "design1": {
+            "name": "Дизайн логотипа",
+            "description": "Минималистичный логотип",
+            "price": 300
+        }
+    }
+}
