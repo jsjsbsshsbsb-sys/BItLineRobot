@@ -4,7 +4,7 @@ from datetime import datetime
 
 from data.db_manager import save_db
 
-DATABASE_PATH = "core/db.json"
+DATABASE_PATH = "db.json"
 
 def create_user(telegram_id, first_name, referrer=None):
     
