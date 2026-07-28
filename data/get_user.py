@@ -1,6 +1,6 @@
 import json
 
-DATABASE_PATH = "core/db.json"
+DATABASE_PATH = "db.json"
 
 def get_user(telegram_id):
     
