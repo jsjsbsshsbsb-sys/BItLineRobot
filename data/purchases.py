@@ -4,7 +4,7 @@ import json
 def buy_product(local_id, price):
 
     with open(
-        "core/db.json",
+        "db.json",
         encoding="utf-8"
     ) as file:
         db=json.load(file)
