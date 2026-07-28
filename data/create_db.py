@@ -2,7 +2,7 @@ import json
 import os
 
 
-DATABASE_PATH = "core/db.json"
+DATABASE_PATH = "db.json"
 
 
 #Создание бд
