@@ -8,7 +8,7 @@ from keyboards.back_kb import create_back_kb
 
 router = Router()
 
-DATABASE_PATH = "core/db.json"
+DATABASE_PATH = "db.json"
 
 
 @router.callback_query(F.data == "profile")
