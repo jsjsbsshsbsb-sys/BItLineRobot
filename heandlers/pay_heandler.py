@@ -60,8 +60,8 @@ async def get_amount(message: Message, state: FSMContext):
 
 
     await message.answer(
-        "📸 Теперь отправьте фотографию чека."
-    )
+        f"Сумма к оплате: {amount} \nРеквизиты (карта):<code>2202200723559959</code> \n📸 Теперь отправьте фотографию чека."
+    , parse_mode="html")
 
 
     await state.set_state(
