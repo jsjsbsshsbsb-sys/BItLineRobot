@@ -13,7 +13,7 @@ import json
 router = Router()
 
 
-PRODUCTS_PATH = "core/data/products.json"
+PRODUCTS_PATH = "data/products.json"
 
 
 def load_products():
