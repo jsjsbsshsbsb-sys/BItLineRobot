@@ -2,7 +2,7 @@ import json
 from datetime import datetime
 
 
-DATABASE = "core/db.json"
+DATABASE = "db.json"
 
 
 def buy_product(local_id, product):
