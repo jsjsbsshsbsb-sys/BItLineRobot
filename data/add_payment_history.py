@@ -2,7 +2,7 @@ import json
 from datetime import datetime
 
 
-DATABASE_PATH = "core/db.json"
+DATABASE_PATH = "db.json"
 
 
 def add_payment_history(
